@@ -1,0 +1,367 @@
+/*
+Styles for the Nav bar
+*/
+.header{
+  padding: 30px;
+  text-align: center;
+  background: lightgray;
+  color: #555;
+  font-size: 25px;
+  font-family: 'Alef', sans-serif;
+  }
+  
+  .content{
+    padding: 70px;
+    height: 700px;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 50px;
+  }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Alef', sans-serif;
+}
+
+.active {
+  background-color: ;
+  /* color: #ffffff; */
+} 
+
+/* Hover on the nav bar */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  /* color: white; */
+}
+
+/*
+Landing/Home page
+*/
+
+
+/* Add styles to the form container on the landing page */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  width: 400px;
+  padding: 16px;
+  background-color: #ffffff;
+  color: #555;
+  height: 400px;
+  border: 1px solid #555;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding:0%;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* 
+Set a style for the submit button on the landing/home page
+ */
+.btn {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+/*
+Styles for sales executive registration form
+*/
+#time{
+  text-align: center;
+}
+
+#sal{
+  padding-left: 400px;
+  color: #555;
+}
+
+.sign{
+  border: 3px solid #555;
+  border-radius: 10px;
+  height: 600px;
+  padding-left: 20px;
+  background-color: #ffffff;
+}
+#fname{
+  margin-left: 150px;
+  width: 300px;
+}
+#lname{
+  margin-left: 150px;
+  width: 300px;
+}
+
+#contactadd{
+  margin-left: 105px;
+  width: 300px;
+}
+
+#phone-no{
+  margin-left: 160px;
+  width: 300px;
+}
+
+#email{
+  margin-left: 190px;
+  width: 300px;
+}
+
+#pword{
+  margin-left: 160px;
+  width: 300px;
+}
+
+#cpword{
+  margin-left: 90px;
+  width: 300px;
+}
+
+#birthday{
+  margin-left: 130px;
+  width: 300px;
+}
+#role{
+  margin-left: 180px;
+  width: 300px;
+  border-radius: 0%;
+}
+#uname{
+  margin-left: 130px;
+  width: 300px;
+}
+/*submit button on the sales representative page*/
+#sub{
+  width: 100px;
+  margin: 10px 10px;
+  margin-left: 600px;
+  height: 40px;
+}
+#canc{
+  width: 100px;
+  height: 40px;
+}
+button:hover {
+  opacity:1;
+}
+
+
+/*
+Styles for the customer registration page
+*/
+#bdy{
+  max-width: fit-content;
+ 
+  }
+  #display-title{
+     margin-left: 400px;
+     
+  }
+  legend{
+    width: 19%;
+    margin-left: 15px;
+  }
+  label{
+    margin-left: 40px;
+  }
+  .a{
+    border: 3px solid #555;
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-color: ;
+    width: 1000px;
+    margin-left: 150px;
+    
+  }
+  #fieldst10{
+    background-color: #ffffff;
+    border: 2px solid #555;
+    height: 260px;
+    
+  }
+  
+  #fname1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 25px;
+    font-size: medium;
+    width: 250px;
+    border-radius: 3px;
+  }
+  
+  #lname1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 40px;
+    font-size: medium;
+    width: 250px;
+    border-radius: 3px;
+  }
+  #Phone1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 30px;
+    font-size: medium;
+    width: 250px;
+    border-radius: 3px;
+  }
+  
+  #nin1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 93px;
+    font-size: medium;
+    width: 250px;
+    border-radius: 3px;
+  }
+  #cid1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 12px;
+    font-size: medium;
+    width: 250px;
+    border-radius: 3px;
+  }
+  #nation1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 45px;
+    font-size: medium;
+    width: 252px;
+    border-radius: 3px;
+  }
+  #dob1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 10px;
+    font-size: medium;
+    width: 250px;
+    border-radius: 3px;
+  }
+  #marriedSt1{
+    border-radius: 0%;
+    height: 25px;
+    margin-left: 25px;
+    font-size: medium;
+    width: 252px;
+    border-radius: 3px;
+  }
+  
+  /*Fieldset 20 styles*/
+#fieldst20{
+  background-color: #ffffff;
+  border: 2px solid #555;
+  height: 200px;
+}
+#lc10{
+  border-radius: 0%;
+  height: 25px;
+  margin-left: 70px;
+  font-size: medium;
+  width: 250px;
+  border-radius: 3px;
+}
+
+#lc20{
+  border-radius: 0%;
+  height: 25px;
+  margin-left: 85px;
+  font-size: medium;
+  width: 250px;
+  border-radius: 3px;
+}
+#oLoans1{
+  border-radius: 0%;
+  height: 25px;
+  margin-left: 16px;
+  font-size: medium;
+  width: 250px;
+  border-radius: 3px;
+}
+
+#sName1{
+  border-radius: 0%;
+  height: 25px;
+  margin-left: 25px;
+  font-size: medium;
+  width: 250px;
+  border-radius: 3px;
+}
+
+#vehicle1{
+  border-radius: 0%;
+  height: 25px;
+  margin-left: 10px;
+  font-size: medium;
+  width: 260px;
+  border-radius: 3px;
+}
+
+#dPayment1{
+  border-radius: 0%;
+  height: 25px;
+  margin-left: 5px;
+  font-size: medium;
+  width: 260px;
+  border-radius: 3px;
+}
+
+/*Field30 styles*/
+#fieldst30{
+  background-color: #ffffff;
+  border: 2px solid #555;
+  height: 195px;
+}
+
+#wrk1{
+  border-radius: 0%;
+  height: 25px;
+  margin-left: 80px;
+  font-size: medium;
+  width: 260px;
+  border-radius: 3px;
+}
+
+
+
+
+
+/*FOOTER NOTE */
+.footer {
+  position:;
+  left: 0;
+  bottom: 0;
+  width: 150%;
+  height: 60px;
+  background-color:#d3d3d3;
+  color: #555;
+  size: 20px;
+  padding-left: 500px;
+  margin-top: 40px;
+}

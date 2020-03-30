@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration Page</title>
+</head>
+
+<body onload=display_ct(); onload="document.customerRegistration.firstName.focus()">
+    <div w3-include-html="./header.html"></div>
+
+    <div id="display-title">
+
+        <h2>Customer Registration</h2>
+            <span id='ct'></span>
+
+    </div>
+
+
+    <div class="a">
+        <form name="customerRegistration" action="" onsubmit="return formValidation()">
+            <fieldset id="fieldst10">
+                <legend>Personal Details</legend>
+                <label for="FirstName">First Name</label>
+                <input type="text" name="firstName" id="fname1" placeholder="First Name">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lname1" placeholder="Last Name"><br>
+                <label for="phoneNo">Phone No</label>
+                <input type="text" name="phoneNo" id="Phone1" placeholder="phone No">
+                <label for="nin">NIN</label>
+                <input type="text" name="nin" id="nin1" placeholder="NIN"><br>
+                <label for="customerId">Customer ID</label>
+                <input type="text" name="customerId" id="cid1" placeholder="Customer ID">
+
+                <label for="nationality">Nationality</label>
+                <select id="nation1">
+                    <option value="Uganda">Uganda</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="South-Sudan">South Sudan</option>
+                    <option value="ethiopia">Ethiopia</option>
+                </select><br>
+                <label for="dateOfBirth">Date of Birth</label>
+                <input type="date" name="dateOfBirth" id="dob1" placeholder="">
+
+                <label for="maritalStatus">Marital Status</label>
+                <select id="marriedSt1">
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                    <option value="divorced">Divorced</option>
+                </select>
+            </fieldset><br>
+
+            <fieldset id="fieldst20">
+                <legend>Other Details</legend>
+                <label for="lc1">LC 1</label>
+                <input type="text" name="lc1" id="lc10" placeholder="LC 1">
+                <label for="lc1">LC 2</label>
+                <input type="text" name="lc2" id="lc20" placeholder="LC 2"><br>
+                <label for="otherLoan">Other Loans</label>
+                <input type="text" name="otherLoans" id="oLoans1" placeholder="Other Loans">
+                <label for="stageName">Stage Name</label>
+                <input type="text" name="stageName" id="sName1" placeholder="Stage Name"><br>
+
+                <label for="vehicleType">Vehicle Type</label>
+                <select id="vehicle1">
+                    <option value="bodabodas">Boda Boda</option>
+                    <option value="tuktuks">Tuktuks</option>
+                    <option value="tricycles">Tricycles</option>
+                </select>
+
+                <label for="downPayment">Down Payment</label>
+                <select id="dPayment1">
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </fieldset><br>
+
+            <fieldset id="fieldst30">
+                <legend>Referees Details</legend>
+                <label for="FirstName">First Name</label>
+                <input type="text" name="firstName" id="fname1" placeholder="First Name">
+                <label for="LastName">Last Name</label>
+                <input type="text" name="lastName" id="lname1" placeholder="Last Name"><br>
+                <label for="phoneNo">Phone No</label>
+                <input type="text" name="phoneNo" id="Phone1" placeholder="phone No">
+                <label for="work">Work</label>
+                <input type="text" name="work" id="wrk1" placeholder="Work"><br>
+
+                <label for="dateOfBirth">Date of Birth</label>
+                <input type="date" name="dateOfBirth" id="dob1" placeholder="">
+
+                <label for="dateOfBirth">Current Date</label>
+                <input type="date" name="current-date" id="dob1" placeholder="">
+
+            </fieldset><br>
+
+            <input type="submit" class="btn1 btn-success" value="submit" onclick="validate()">
+            <input type="reset" class="btn1 btn-primary" value="cancel">
+
+        </form>
+
+    </div>
+
+    <!--FOOTER-->
+  <div class="footer" ><span>Boda Boda Banja &copy2020</span>
+  </div>
+
+
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
